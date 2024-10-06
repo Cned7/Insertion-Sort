@@ -1,0 +1,14 @@
+ALGORITHM sortingAlgorithm
+VAR
+    let i, key, j;
+    const unsortedArray = [30, 70, 10, 60, 40, 20, 50];
+    const sortedArray = insertionSort(unsortedArray);
+BEGIN
+    Step 1: Start from the second element (i = 1) because the first element (i = 0) is trivially sorted.
+    Step 2: For each element at position i, store the element in a temporary variable key.
+    Step 3: Compare the element with the previous elements (i - 1, i - 2, ..., 0) to find its correct position.
+    Step 4: Shift the elements that are larger than the key to the right by one position.
+    Step 5: Insert the key into its correct position.
+    Step 6: Repeat the process until all elements are sorted.
+    Step 7: Insertion Sort JavaScript Implementation:
+END
